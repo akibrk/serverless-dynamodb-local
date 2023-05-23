@@ -32,14 +32,14 @@
         "test": "mocha ./test"
     },
     "dependencies": {
+        "@akibrk/dynamodb-localhost": "github:akibrk/dynamodb-localhost",
         "aws-sdk": "^2.7.0",
         "bluebird": "^3.4.6",
-        "dynamodb-localhost": "0.0.9",
         "lodash": "^4.17.0"
     },
     "devDependencies": {
-        "chai": "^4.1.1",
-        "mocha": "^6.2.1",
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0",
         "should": "^11.2.1"
     }
 }
